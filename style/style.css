@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container-home {
+    background-image: url(../images/dragon-scales.svg);
+    width: 35%;
+    height: 100%;
+    border: 5px double blue;
+}
+.title-home, .text-home {
+    text-align: center;
+    color: white;
+
+}
+h5 {
+    color: white;
+    font-size: 1.7rem;
+}
+input {
+    width: 95%;
+    height: 35px;
+}
+.container-formulario {
+    margin-left: 20px;
+}
+.mensaje {
+    height: 50px;
+}
+.btn-envio {
+    width: 20%;
+}
+.btn-envio:hover {
+    cursor: pointer;
+}
